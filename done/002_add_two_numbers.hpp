@@ -68,6 +68,8 @@ void test() {
 	test({1}, {9,9,9});
 }
 
+private:
+
 void test(vector<int> v1, vector<int> v2) {
 	ListNode* l1 = createList(v1);
 	ListNode* l2 = createList(v2);

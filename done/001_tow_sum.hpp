@@ -41,6 +41,8 @@ void test() {
 	test({3, 2, 4}, 6);
 }
 
+private:
+
 void test(vector<int> nums, int target) {
 	print(twoSum(nums, target));
 }

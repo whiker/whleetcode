@@ -53,6 +53,8 @@ void test() {
 	test("babcad");
 }
 
+private:
+
 void test(string s) {
 	cout << lengthOfLongestSubstring(s) << " " << s << endl;
 }
