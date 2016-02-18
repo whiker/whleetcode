@@ -73,7 +73,7 @@ void test(string s, string expect) {
 		cout << "ok " << s << endl;
 	}
 	else {
-		cout << "error " << s << " " << ret << " " << expect << endl;
+		cout << "error " << s << " " << expect << " " << ret << endl;
 	}
 }
 

@@ -96,7 +96,7 @@ void test(string s, int nRow, string expect) {
 		cout << "ok " << s << " " << nRow << endl;
 	}
 	else {
-		cout << "error " << s << " " << nRow << " " << ret << " " << expect << endl;
+		cout << "error " << s << " " << nRow << " " << expect << " " << ret << endl;
 	}
 }
 
