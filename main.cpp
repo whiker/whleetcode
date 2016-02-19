@@ -1,4 +1,4 @@
-#include "Solution.hpp"
+#include "solution.hpp"
 
 int main() {
 	Solution solu;

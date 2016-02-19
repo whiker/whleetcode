@@ -1,6 +1,7 @@
 #ifndef SOLUTION
 #define SOLUTION
 
+#include "print_tool.hpp"
 #include "util.h"
 using namespace std;
 
@@ -44,14 +45,7 @@ void test() {
 private:
 
 void test(vector<int> nums, int target) {
-	print(twoSum(nums, target));
-}
-
-void print(const vector<int>& v) {
-	cout << "[" << *v.begin();
-	for_each(v.begin()+1, v.end(),
-		[] (int i) { cout << ", " << i; });
-	cout << "]" << endl;
+	PrintTool<int>::printVector(twoSum(nums, target));
 }
 
 };
