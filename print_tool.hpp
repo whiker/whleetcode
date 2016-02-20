@@ -10,15 +10,17 @@ class PrintTool {
 public:
 
 static void printVector(std::vector<T>& v, bool isPrintEndl=true) {
-	std::cout << "[";
+	using namespace std;
+	
+	cout << "[";
 	if (v.size() > 0) {
-		std::cout << *v.begin();
-		std::for_each(v.begin()+1, v.end(),
-			[] (int i) { std::cout << ", " << i; });
+		cout << *v.begin();
+		for_each(v.begin()+1, v.end(),
+			[] (T i) { cout << ", " << i; });
 	}
-	std::cout << "]";
+	cout << "]";
 	if (isPrintEndl) {
-		std::cout << std::endl;
+		cout << endl;
 	}
 }
 
